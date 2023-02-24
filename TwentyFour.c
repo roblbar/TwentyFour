@@ -27,8 +27,7 @@ void displayExit() {
 }
 
 
-char getOperatorAndAnswer(int count, float *answer, float var1, float var2) {
-	
+char getOperatorAndAnswer(int count, float *answer, float var1, float var2) {	
 	switch (count) {
 		case 1:
 			*answer = var1 + var2;
